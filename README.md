@@ -1,7 +1,7 @@
 # Keyboard
 Working With Keyboard
 
-// Show a keyboard with delay.
+	// Show a keyboard with delay.
 
 	public static void openKeypad(final Context context, final View v) 
 	   {
@@ -10,7 +10,7 @@ Working With Keyboard
 			@Override
 			public void run() 
 			{
-				InputMethodManager inputManager = (InputMethodManager)context.getSystemService(Context.INPUT_METHOD_SERVICE); 
+				InputMethodManager inputManager = 	(InputMethodManager)context.getSystemService(Context.INPUT_METHOD_SERVICE); 
 				inputManager.showSoftInput(v, InputMethodManager.SHOW_IMPLICIT);	
 				Log.e("openKeypad", "Inside Handler");
 			}
