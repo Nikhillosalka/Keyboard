@@ -5,7 +5,6 @@ Working With Keyboard
 
 public static void openKeypad(final Context context, final View v) 
 	{
-		
 		new Handler().postDelayed(new Runnable() 
 		{
 			@Override
