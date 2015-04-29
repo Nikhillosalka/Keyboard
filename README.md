@@ -3,8 +3,8 @@ Working With Keyboard
 
 // Show a keyboard with delay.
 
-public static void openKeypad(final Context context, final View v) 
-	{
+	public static void openKeypad(final Context context, final View v) 
+	   {
 		new Handler().postDelayed(new Runnable() 
 		{
 			@Override
